@@ -1,0 +1,56 @@
+/* css for both admin and customer css */
+body {
+    background-image: url("p2-bg.jpg");
+    background-color: #f6e7e4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+h1 {
+    color: #5B6D5B;
+}
+label {
+    color: #999B84;
+}
+#username, #password {
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #5B6D5B;
+    padding: 5px;
+}
+.inputbox {
+    /* border: solid 2px #926E6F; */
+    border-radius: 35px;
+    /* box-shadow: 20px 20px 0px 2px #CA8A8B; */
+    background-color: #E6C4C0;
+    padding: 30px;
+    margin: 15% 35% 10% 35%;
+}
+h1{
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+a {
+    margin: 10px;
+    padding: 10px 10px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #b1b496;
+    border-radius: 10px;
+}
+a:visited {
+    color: white;
+}
+input {
+    margin: 10px;
+}
+input[type=submit] {
+    background-color: #b1b496;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px;
+}

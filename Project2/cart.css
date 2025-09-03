@@ -1,0 +1,90 @@
+body {
+  background-image: url("p2-bg.jpg");
+    background-color: #f6e7e4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FDFDF6;
+}
+/* css for the table info where items are displayed */
+td{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    border: 2px solid #643843;
+}
+th{
+    font-size: 35px;
+    color: #643843;
+}
+h1{
+  color: #35251A;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+    
+table{
+  border: 2px solid #643843;
+  padding: 20px;
+  background-color: #926e6fb7;
+  border-radius: 10px;
+     width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+     display: block;
+     border-collapse: collapse;
+ }
+ /* css for all buttons displayed */
+ .button {
+    background-color: #DBE9B7;
+    border-radius: 10px;
+    border: 2px solid #5B6D5B;
+    color: #5B6D5B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+/* css for the text */
+  p{
+    text-align: center;
+    font-size: 30px;
+    color: #35251A;
+  }
+  /* css for all images */
+  img{
+    align-items: center;
+    width: 25%;
+    height: auto;
+  }
+
+  #image{
+    margin-left: auto;
+    margin-right: auto;
+     display: block;
+  }
+  /* css for links */
+  a{
+    text-align: center;
+  }
+  /* specific css for the logout button */
+  .logoutbutton {
+    display: block;
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #DBE9B7;
+    color:rgb(97, 84, 84);
+    border-radius: 10px;
+}
+.logoutbutton:visited {
+    color:rgb(97, 84, 84);
+}

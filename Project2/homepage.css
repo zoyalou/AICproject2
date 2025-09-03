@@ -1,0 +1,44 @@
+/* homepage css */
+body {
+    text-align: center;
+    background-image: url("p2-bg.jpg");
+    background-color: #f6e7e4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    margin-top: 35px;
+    color: #5B6D5B;
+}
+/* here we changed the css of all of out links */
+#links {
+    width: 20%;
+    margin: 15% 40%;
+}
+a {
+    color: white;
+}
+/* here is the login into css */
+.login {
+    text-decoration: none;
+    background-color: #b1b496;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+/* css for customer login */
+#customerlogin {
+    margin: 40px 5px;
+    margin-bottom: 30px;
+}
+/* css for creating an account */
+#createacc {
+    margin-top: 0px;
+}
+/* css for creating account's links */
+#createacc a {
+    color: #926E6F;
+}
+/* css for admin login */
+#adminlogin {
+    margin-top: 70px;
+}

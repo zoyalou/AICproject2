@@ -1,0 +1,221 @@
+/* css sheet for itemsinstore.php & adminstore.php (or any adjacent pages) */
+/* itemsinstore */
+body {
+    background-color: #f6e7e4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* css for the header */
+#header {
+    display: block;
+    /* background-color: #DBE9B7; */
+    margin: 0px 20px 30px 20px;
+    padding: 10px;
+    border-bottom: solid 3px #E2BCB7;
+    /* border: solid 2px #E2BCB7; */
+    /* border-radius: 20px; */
+}
+/* css for all of h1 */
+h1 {
+    color: #926E6F;
+    padding: 0px 20px;
+    margin-left: 20px;
+    /* margin-right: 50px; */
+    text-align: center;
+    /* display: inline-block; */
+}
+/* css for the cart button */
+#cart-button {
+    float: right;
+}
+
+.itemset {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    /* margin: 0% 10%; */
+}
+/* css for each item's name */
+.itemname {
+    text-align: center;
+    color: #926E6F;
+}
+/* css for all of the images used */
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid #E2BCB7;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+/* css for all buttons used */
+.button {
+    background-color:#DBE9B7;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: #35251A;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* css for cart button only */
+#cart {
+    padding: 0px;
+    height: 50px;
+    width: 120px;
+}
+/* css for the back button and cart button */
+#back, #cart {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* this it the css for the page that shows up when you click order if you're ordering a boba or smoothie */
+#toppingbody {
+    background-color: rgba(242, 247, 242, 0.9);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: fixed;
+    text-align: center;
+    padding-bottom: 400px;
+    width: 50%;
+    height: 15%;
+    z-index: 2;
+    transform: translateX(-50%);
+    margin-top: 177px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 20px;
+    color: rgb(97, 84, 84);
+}
+/* this is the css for the item name that shows up along with the toppings and add to cart*/
+#itemname{
+    background-color: rgba(161, 181, 161, 0.9);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    position: fixed;
+    text-align: center;
+    width: 47.25%;
+    height: 5%;
+    z-index: 2;
+    transform: translateX(-50%);
+    margin-top: 100px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+/* adminstore */
+/* these are css for the table in admin where all items can be accessed and edited */
+#body {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: auto auto auto; */
+}
+#form {
+    margin-left: 10%;
+}
+/* css for all of our items in the table */
+td{
+    text-align: left;
+}
+
+table{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#adminedittable tr {
+    border: 2px solid #926E6F;
+}
+
+#adminedittable td {
+    margin: none;
+    padding: 10px;
+    border: 2px solid #926E6F;
+    text-align: center;
+}
+/* css for admin page's buttons */
+.adminbutton {
+    border: 0px;
+    height: 30px;
+    width: 30px;
+}
+#logoutbutton {
+    display: block;
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #DBE9B7;
+    color:rgb(97, 84, 84);
+    border-radius: 10px;
+}
+#logoutbutton:visited {
+    color:rgb(97, 84, 84);
+}
+
+.save {
+    height: 30px;
+    width: 80px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    margin-top: 10px;
+}
+/* #editbuttons {
+    display: table;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 30px;
+} */
+
+input[type=text],input[type=number],option {
+    text-align: center;
+    /* border: none; */
+    /* background-color: #f6e7e4; */
+}
+input[type=text]:focus, input[type=number]:focus {
+    text-align: center;
+    background: #E2BCB7;
+}
+/* css for the history link */
+#history{
+    color: black;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+/* this is so that when you hover over history it indicates something */
+#history:hover {
+    background-color: #c8c1c0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+label, input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+select {
+    margin-right: 10px;
+}
