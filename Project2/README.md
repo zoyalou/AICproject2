@@ -3,6 +3,14 @@ Work for Project 2 in UC Berkeley ATDP Web Development
 
 Link to Website: https://atdpsites.berkeley.edu/rwan/Project2/homepage.php 
 
+Admin Login Info:
+Usernames:
+zoya
+riti
+richard
+Password:
+password
+
 ## Overview
 This project is a mockup of a boba tea store's webpage and includes the ability for the user to create their own account, log in with a unique password, and browse through the menu to order whatever drinks or food they desire. Admin accounts and passwords also exist already, and logging in through one will allow the user to edit, add, or delete items from the menu. 
 
